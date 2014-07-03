@@ -324,43 +324,43 @@ img {
 border-radius:50%;
 }
 .round1{
-border-radius:1px;
-}
-
-.round2{
 border-radius:2px;
 }
 
-.round3{
-border-radius:3px;
-}
-
-.round4{
+.round2{
 border-radius:4px;
 }
 
-.round5{
-border-radius:5px;
-}
-
-.round6{
+.round3{
 border-radius:6px;
 }
 
-.round7{
-border-radius:7px;
-}
-
-.round8{
+.round4{
 border-radius:8px;
 }
 
+.round5{
+border-radius:10px;
+}
+
+.round6{
+border-radius:12px;
+}
+
+.round7{
+border-radius:14px;
+}
+
+.round8{
+border-radius:16px;
+}
+
 .round9{
-border-radius:9px;
+border-radius:18px;
 }
 
 .round10{
-border-radius:10px;
+border-radius:20px;
 }
 .btn-block{
 width:100%;
@@ -803,7 +803,7 @@ pre code {
 /*buttons */
 
 .btn {
-
+background:#eee;
 color:rgb(238, 230, 230);
 height:auto;
 font-size: 12px;
@@ -865,57 +865,57 @@ background-color:rgb(209, 142, 209) !important;
 
 .btn-xsm{
 font-size:12px !important;
-padding: 8px 10px 8px 10px;
+padding: 8px 12px 8px 12px;
 
 }
 
 .btn-sm{
 font-size:13px !important;
-padding: 9px 45px 9px 45px;
+padding: 9px 30px 9px 30px;
 
 }
 
 
 .btn-def{
 font-size:14px !important;
-padding: 10px 60px 10px 60px;
+padding: 10px 45px 10px 45px;
 }
 
 .btn-lg{
 font-size:15px !important;
-padding: 11px 75px 11px 75px;
+padding: 11px 60px 11px 60px;
 }
 
 .btn-xlg {
 font-size:16px !important;
-padding: 12px 90px 12px 90px;
+padding: 12px 80px 12px 80px;
 }
 
 .btn-xsm1{
 font-size:12px !important;
-padding: 7px 14px 7px 14px;
+padding: 5px 20px 5px 20px;
 
 }
 
 .btn-sm1{
 font-size:13px !important;
-padding: 8px 50px 8px 50px;
+padding: 5px 35px 5px 35px;
 }
 
 .btn-def1{
 font-size:14px !important;
-padding: 9px 65px 9px 65px;
+padding: 6px 50px 6px 50px;
 
 }
 
 .btn-lg1{
 font-size:15px !important;
-padding: 10px 80px 10px 80px;
+padding: 7px 65px 7px 65px;
 }
 
 .btn-xlg1 {
 font-size:16px !important;
-padding: 11px 95px 11px 95px;
+padding: 8px 80px 8px 80px;
 }
 
 
@@ -1271,7 +1271,7 @@ color:lightblue !important;
 
 /*  Basic stucture
 =====================*/
-.accordion{margin:100px auto;width:400px;}
+.accordion{margin:100px auto;width:90%;}
 .accordion ul{list-style:none;margin:0;padding:0;}
 .sub-accordion{display:none;}
 .sub-accordion:target{display:block;}
@@ -1340,12 +1340,12 @@ border-bottom:1px solid lightgray;
 vertical-align:middle !important;
 font-size:14px;
 text-transform:capitalize;
-border-bottom:1px solid #E9E9E9;
 padding:0px 5px 0px 5px;
-margin-top:5px !important;
+margin-top:4px !important;
 }
 .li-group-img> .li-item {
 height:36px;
+margin-bottom:4px !important;
 }
 .li-group> .li-item {
 height:32px !important;
@@ -1357,13 +1357,17 @@ text-decoration:none !important;
 
 .li-group >.li-item:hover , .li-group-img >.li-item:hover{
 background-color:#E6E9ED;
-height:32px;
+height:38px;
 border-bottom:none;
 margin-top:0px !important;
+
 text-align:center !important;
 width:100% !important;
 list-style-type:none !important;
 
+}
+.li-group-img >.li-item:hover{
+margin-top:8px !important;
 }
 .li-group>.li-item  a:hover , .li-group-img >.li-item  a:hover{
 text-decoration:none !important;
